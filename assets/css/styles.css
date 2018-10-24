@@ -1,0 +1,96 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial,sans-serif;
+    margin:0px;
+    width:100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: 'El Rio Lobo';
+
+}
+ul {
+    padding-left:0px;
+}
+
+ul > li {
+    font-family: 'El Rio Lobo';
+    list-style: none;
+    font-size:5em;
+}
+
+
+header {
+    background-color: #a32238;
+    padding: 3em 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.section-inner {
+    padding: 3em 0;
+    min-height: 33vh;
+}
+.page-title {
+    color: #f3b031;
+    margin-top:0px;
+    text-align: center;
+}
+.page-subtitle {
+   margin-bottom:0px;
+    text-align: center;
+
+}
+
+#cuzco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-blue {
+    background-color: #0189c0;
+}
+
+#yzma {
+    position: relative;
+    background-image:url('../images/cuzco2.jpg');
+    background-position:top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text {
+    position: absolute;
+    color:white;
+    top:0px;
+    right:0px;
+
+}
+
+.text h4 {
+color:#f3b031;
+font-size:2em;
+}
+.text p,
+.text h4 {
+    margin-bottom:0px;
+    margin-top:0px;
+    text-align: right;
+}
+
+#precios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#precios h2 {
+    text-align: center;
+    font-size:3em;
+}
+
+.lista-precios {
+
+}
